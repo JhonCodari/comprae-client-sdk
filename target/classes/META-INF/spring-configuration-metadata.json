@@ -1,0 +1,90 @@
+{
+  "groups": [
+    {
+      "name": "config.client",
+      "type": "com.configsystem.client.configuracao.PropriedadesClienteConfiguracao",
+      "sourceType": "com.configsystem.client.configuracao.PropriedadesClienteConfiguracao"
+    },
+    {
+      "name": "config.client.kafka",
+      "type": "com.configsystem.client.configuracao.PropriedadesClienteConfiguracao$KafkaConfig",
+      "sourceType": "com.configsystem.client.configuracao.PropriedadesClienteConfiguracao",
+      "sourceMethod": "getKafka()"
+    }
+  ],
+  "properties": [
+    {
+      "name": "config.client.cache-enabled",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.configsystem.client.configuracao.PropriedadesClienteConfiguracao",
+      "defaultValue": true
+    },
+    {
+      "name": "config.client.cache-ttl",
+      "type": "java.lang.Long",
+      "sourceType": "com.configsystem.client.configuracao.PropriedadesClienteConfiguracao",
+      "defaultValue": 300000
+    },
+    {
+      "name": "config.client.environment",
+      "type": "java.lang.String",
+      "sourceType": "com.configsystem.client.configuracao.PropriedadesClienteConfiguracao",
+      "defaultValue": "dev"
+    },
+    {
+      "name": "config.client.kafka.bootstrap-servers",
+      "type": "java.lang.String",
+      "sourceType": "com.configsystem.client.configuracao.PropriedadesClienteConfiguracao$KafkaConfig",
+      "defaultValue": "localhost:9092"
+    },
+    {
+      "name": "config.client.kafka.enabled",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.configsystem.client.configuracao.PropriedadesClienteConfiguracao$KafkaConfig",
+      "defaultValue": false
+    },
+    {
+      "name": "config.client.kafka.topic",
+      "type": "java.lang.String",
+      "sourceType": "com.configsystem.client.configuracao.PropriedadesClienteConfiguracao$KafkaConfig",
+      "defaultValue": "config-changes"
+    },
+    {
+      "name": "config.client.namespace",
+      "type": "java.lang.String",
+      "sourceType": "com.configsystem.client.configuracao.PropriedadesClienteConfiguracao",
+      "defaultValue": "default"
+    },
+    {
+      "name": "config.client.password",
+      "type": "java.lang.String",
+      "sourceType": "com.configsystem.client.configuracao.PropriedadesClienteConfiguracao",
+      "defaultValue": "admin123"
+    },
+    {
+      "name": "config.client.server-url",
+      "type": "java.lang.String",
+      "sourceType": "com.configsystem.client.configuracao.PropriedadesClienteConfiguracao",
+      "defaultValue": "http:\/\/localhost:8080"
+    },
+    {
+      "name": "config.client.sync-enabled",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.configsystem.client.configuracao.PropriedadesClienteConfiguracao",
+      "defaultValue": true
+    },
+    {
+      "name": "config.client.sync-interval",
+      "type": "java.lang.Long",
+      "sourceType": "com.configsystem.client.configuracao.PropriedadesClienteConfiguracao",
+      "defaultValue": 30000
+    },
+    {
+      "name": "config.client.username",
+      "type": "java.lang.String",
+      "sourceType": "com.configsystem.client.configuracao.PropriedadesClienteConfiguracao",
+      "defaultValue": "admin"
+    }
+  ],
+  "hints": []
+}
