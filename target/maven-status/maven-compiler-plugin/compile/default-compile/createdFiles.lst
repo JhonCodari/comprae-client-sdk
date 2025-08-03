@@ -1,0 +1,15 @@
+com\configsystem\client\configuracao\ConfiguracaoAutoClienteConfig.class
+com\configsystem\client\configuracao\PropriedadesClienteConfiguracao$KafkaConfig.class
+com\configsystem\client\servico\ServicoListenerMudancaConfiguracao.class
+com\configsystem\client\exemplos\ControllerExemplosConfiguracao.class
+com\configsystem\client\exemplos\ConfiguracoesApp.class
+META-INF\spring-configuration-metadata.json
+com\configsystem\client\exemplos\ManipuladorMudancaConfiguracao.class
+com\configsystem\client\servico\ServicoClienteConfiguracao.class
+com\configsystem\client\anotacao\ValorConfiguracao.class
+com\configsystem\client\configuracao\PropriedadesClienteConfiguracao.class
+com\configsystem\client\servico\ServicoClienteConfiguracao$1.class
+com\configsystem\client\processador\ProcessadorValorConfiguracao.class
+com\configsystem\client\servico\ServicoSincronizacaoConfiguracao.class
+com\configsystem\client\exemplos\ServicoExemplo.class
+com\configsystem\client\servico\ServicoListenerMudancaConfiguracao$EventoMudancaConfiguracao.class

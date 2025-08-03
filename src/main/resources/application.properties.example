@@ -1,0 +1,47 @@
+# Arquivo de exemplo de configuração do Config Client SDK em Português
+# Copie este arquivo para application.properties na sua aplicação
+
+# Configuração básica do cliente
+config.client.server-url=http://localhost:8080
+config.client.namespace=minha-app
+config.client.environment=dev
+config.client.username=admin
+config.client.password=admin123
+
+# Configuração do cache local
+config.client.cache.enabled=true
+config.client.cache.ttl=300000
+config.client.cache.max-size=1000
+
+# Configuração da sincronização periódica
+config.client.sync.enabled=true
+config.client.sync.interval=30000
+config.client.sync.max-retries=3
+config.client.sync.retry-delay=5000
+
+# Configuração do Kafka para tempo real
+config.client.kafka.enabled=true
+config.client.kafka.bootstrap-servers=localhost:9092
+config.client.kafka.topic=config-changes
+
+# Exemplos de uso do SDK em Português:
+
+# 1. Injeção simples
+# @ValorConfiguracao("database.url")
+# private String urlBancoDados;
+
+# 2. Com valor padrão
+# @ValorConfiguracao(value = "pool.size", defaultValue = "10")
+# private Integer tamanhoPool;
+
+# 3. Com namespace específico
+# @ValorConfiguracao(value = "feature.habilitada", namespace = "feature-flags")
+# private Boolean featureHabilitada;
+
+# 4. Sem auto-refresh
+# @ValorConfiguracao(value = "config.estatica", refreshable = false)
+# private String configEstatica;
+
+# 5. Configuração obrigatória
+# @ValorConfiguracao(value = "app.configuracoes", required = true)
+# private ConfiguracoesApp configuracoes;
