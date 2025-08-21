@@ -9,81 +9,69 @@
       "name": "config.client.kafka",
       "type": "com.configsystem.client.configuracao.PropriedadesClienteConfiguracao$KafkaConfig",
       "sourceType": "com.configsystem.client.configuracao.PropriedadesClienteConfiguracao",
-      "sourceMethod": "getKafka()"
+      "sourceMethod": "public com.configsystem.client.configuracao.PropriedadesClienteConfiguracao.KafkaConfig getKafka() "
     }
   ],
   "properties": [
     {
       "name": "config.client.cache-enabled",
       "type": "java.lang.Boolean",
-      "sourceType": "com.configsystem.client.configuracao.PropriedadesClienteConfiguracao",
-      "defaultValue": true
+      "sourceType": "com.configsystem.client.configuracao.PropriedadesClienteConfiguracao"
     },
     {
       "name": "config.client.cache-ttl",
       "type": "java.lang.Long",
-      "sourceType": "com.configsystem.client.configuracao.PropriedadesClienteConfiguracao",
-      "defaultValue": 300000
+      "sourceType": "com.configsystem.client.configuracao.PropriedadesClienteConfiguracao"
     },
     {
       "name": "config.client.environment",
       "type": "java.lang.String",
-      "sourceType": "com.configsystem.client.configuracao.PropriedadesClienteConfiguracao",
-      "defaultValue": "dev"
+      "sourceType": "com.configsystem.client.configuracao.PropriedadesClienteConfiguracao"
     },
     {
       "name": "config.client.kafka.bootstrap-servers",
       "type": "java.lang.String",
-      "sourceType": "com.configsystem.client.configuracao.PropriedadesClienteConfiguracao$KafkaConfig",
-      "defaultValue": "localhost:9092"
+      "sourceType": "com.configsystem.client.configuracao.PropriedadesClienteConfiguracao$KafkaConfig"
     },
     {
       "name": "config.client.kafka.enabled",
       "type": "java.lang.Boolean",
-      "sourceType": "com.configsystem.client.configuracao.PropriedadesClienteConfiguracao$KafkaConfig",
-      "defaultValue": false
+      "sourceType": "com.configsystem.client.configuracao.PropriedadesClienteConfiguracao$KafkaConfig"
     },
     {
       "name": "config.client.kafka.topic",
       "type": "java.lang.String",
-      "sourceType": "com.configsystem.client.configuracao.PropriedadesClienteConfiguracao$KafkaConfig",
-      "defaultValue": "config-changes"
+      "sourceType": "com.configsystem.client.configuracao.PropriedadesClienteConfiguracao$KafkaConfig"
     },
     {
       "name": "config.client.namespace",
       "type": "java.lang.String",
-      "sourceType": "com.configsystem.client.configuracao.PropriedadesClienteConfiguracao",
-      "defaultValue": "default"
+      "sourceType": "com.configsystem.client.configuracao.PropriedadesClienteConfiguracao"
     },
     {
       "name": "config.client.password",
       "type": "java.lang.String",
-      "sourceType": "com.configsystem.client.configuracao.PropriedadesClienteConfiguracao",
-      "defaultValue": "admin123"
+      "sourceType": "com.configsystem.client.configuracao.PropriedadesClienteConfiguracao"
     },
     {
       "name": "config.client.server-url",
       "type": "java.lang.String",
-      "sourceType": "com.configsystem.client.configuracao.PropriedadesClienteConfiguracao",
-      "defaultValue": "http:\/\/localhost:8080"
+      "sourceType": "com.configsystem.client.configuracao.PropriedadesClienteConfiguracao"
     },
     {
       "name": "config.client.sync-enabled",
       "type": "java.lang.Boolean",
-      "sourceType": "com.configsystem.client.configuracao.PropriedadesClienteConfiguracao",
-      "defaultValue": true
+      "sourceType": "com.configsystem.client.configuracao.PropriedadesClienteConfiguracao"
     },
     {
       "name": "config.client.sync-interval",
       "type": "java.lang.Long",
-      "sourceType": "com.configsystem.client.configuracao.PropriedadesClienteConfiguracao",
-      "defaultValue": 30000
+      "sourceType": "com.configsystem.client.configuracao.PropriedadesClienteConfiguracao"
     },
     {
       "name": "config.client.username",
       "type": "java.lang.String",
-      "sourceType": "com.configsystem.client.configuracao.PropriedadesClienteConfiguracao",
-      "defaultValue": "admin"
+      "sourceType": "com.configsystem.client.configuracao.PropriedadesClienteConfiguracao"
     }
   ],
   "hints": []
