@@ -6,7 +6,7 @@
 
     <groupId>com.github.JonatasSilvaDev</groupId>
     <artifactId>comprae-client-sdk</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <packaging>jar</packaging>
     
     <name>Comprae Client SDK</name>
