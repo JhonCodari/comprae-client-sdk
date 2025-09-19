@@ -94,7 +94,7 @@ public class ServicoClienteConfiguracao {
     public Map<String, String> buscarTodasConfiguracoes(String namespace, String environment) {
         try {
             String response = webClient.get()
-                .uri("/api/configs/{namespace}/{environment}/map", namespace, environment)
+                .uri("/api/v1/configuracoes/{namespace}/{environment}/map", namespace, environment)
                 .retrieve()
                 .bodyToMono(String.class)
                 .block();
