@@ -44,7 +44,6 @@ public class EndpointMonitoramento {
         cacheInfo.put("total_misses", stats.missCount());
         cacheInfo.put("evictions", stats.evictionCount());
         cacheInfo.put("load_time_avg_ms", String.format("%.2f", stats.averageLoadPenalty() / 1_000_000.0));
-        cacheInfo.put("load_exceptions", stats.loadExceptionCount());
         
         info.put("cache", cacheInfo);
         

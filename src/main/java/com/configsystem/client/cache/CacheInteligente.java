@@ -134,7 +134,6 @@ public class CacheInteligente implements HealthIndicator {
             .withDetail("hit-count", stats.hitCount())
             .withDetail("miss-count", stats.missCount())
             .withDetail("eviction-count", stats.evictionCount())
-            .withDetail("load-exception-count", stats.loadExceptionCount())
             .withDetail("average-load-penalty", String.format("%.2fms", stats.averageLoadPenalty() / 1_000_000.0))
             .build();
     }
