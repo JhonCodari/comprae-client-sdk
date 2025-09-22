@@ -51,4 +51,40 @@ public @interface ValorConfiguracao {
      * Indica se o valor deve ser atualizado automaticamente quando a configuração mudar
      */
     boolean refreshable() default false;
+    
+    /**
+     * Tipo para conversão automática
+     * Por padrão usa String, mas pode ser especificado Integer.class, Boolean.class, etc.
+     */
+    Class<?> type() default String.class;
+    
+    /**
+     * Padrão de validação (email, url, ip, port, ou regex customizado)
+     */
+    String validator() default "";
+    
+    /**
+     * Valor mínimo para tipos numéricos
+     */
+    double min() default Double.MIN_VALUE;
+    
+    /**
+     * Valor máximo para tipos numéricos
+     */
+    double max() default Double.MAX_VALUE;
+    
+    /**
+     * Separador para listas (padrão: vírgula)
+     */
+    String separator() default ",";
+    
+    /**
+     * Profiles onde esta configuração é aplicável
+     */
+    String[] profiles() default {};
+    
+    /**
+     * Chave de fallback caso a principal não seja encontrada
+     */
+    String fallback() default "";
 }
